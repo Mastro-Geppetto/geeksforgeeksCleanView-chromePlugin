@@ -12,10 +12,10 @@ whole.innerHTML = content.innerHTML;
 This project might not be maintained.
 
 ## How to use the extension
-Download and extract it to folder.
-open "chrome://extensions/"
-Enable developer options.
-Click "Load Unpacked" and point to folder.
+1. Download and extract it to folder.
+2. Open "chrome://extensions/"
+3. Enable developer options.
+4. Click "Load Unpacked" and point to folder.
 
 ## Why is not there in chrome plugin store
 I have not paid the developer fee ($5).
