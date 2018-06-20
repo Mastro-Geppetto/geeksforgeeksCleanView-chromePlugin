@@ -19,3 +19,7 @@ This project might not be maintained.
 
 ## Why is not there in chrome plugin store
 I have not paid the developer fee ($5).
+
+## Screenshots
+![alt text](https://raw.githubusercontent.com/Mastro-Geppetto/geeksforgeeksCleanView-chromePlugin/master/before.png "Without plugin")
+![alt text](https://raw.githubusercontent.com/Mastro-Geppetto/geeksforgeeksCleanView-chromePlugin/master/after.png "With plugin")
