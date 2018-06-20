@@ -21,5 +21,7 @@ This project might not be maintained.
 I have not paid the developer fee ($5).
 
 ## Screenshots
+1. Without Plugin
 ![alt text](https://raw.githubusercontent.com/Mastro-Geppetto/geeksforgeeksCleanView-chromePlugin/master/before.png "Without plugin")
+2. With plugin
 ![alt text](https://raw.githubusercontent.com/Mastro-Geppetto/geeksforgeeksCleanView-chromePlugin/master/after.png "With plugin")
