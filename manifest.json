@@ -1,0 +1,18 @@
+{
+ "manifest_version": 2,
+ "name": "GeeksForGeeks clean view",
+ "short_name": "GeeksForGeeks clean view reader",
+ "description": "This will clean up the geeksforgeeks.org/* site view by replacing 'body' by 'content'.",
+ "version": "1",
+ "author": "Promit Chatterjee",
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   "default_title": "Success"
+ },
+"content_scripts": [ {
+  "all_frames": true,
+  "js": [ "main.js" ],
+  "matches": [ "*://www.geeksforgeeks.org/*" ]
+} ],
+ "permissions": ["activeTab"]
+}
