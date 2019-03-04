@@ -12,7 +12,7 @@
 "content_scripts": [ {
   "all_frames": true,
   "js": [ "main.js" ],
-  "matches": [ "*://www.geeksforgeeks.org/*" ]
+  "matches": [ "*://www.geeksforgeeks.org/*", "*://practice.geeksforgeeks.org/*" ]
 } ],
  "permissions": ["activeTab"]
 }
