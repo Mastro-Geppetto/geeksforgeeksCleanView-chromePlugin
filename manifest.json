@@ -12,7 +12,8 @@
 "content_scripts": [ {
   "all_frames": true,
   "js": [ "main.js" ],
-  "matches": [ "*://www.geeksforgeeks.org/*", "*://practice.geeksforgeeks.org/*" ]
+  "run_at": "document_idle",
+  "matches": [ "https://*.geeksforgeeks.org/*" ]
 } ],
  "permissions": ["activeTab"]
 }

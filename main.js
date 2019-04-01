@@ -7,21 +7,19 @@ if ( window.location.hostname == "practice.geeksforgeeks.org" )
 {
     var icon = document.querySelectorAll("head link[rel='icon']")[0];
     // use stackovreflow icon
-    icon.setAttribute("href", "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d");
+    icon.setAttribute("href", stackOverFlowIconLocation);
     // detox
     var lftEle = document.querySelectorAll("body div[class='container-fluid'] div[class='row fullPageDiv'] div")[0];
-    lftEle.parentElement.removeChild( lftEle );
+    //lftEle.parentElement.removeChild( lftEle );
     
     var mainEle = document.querySelectorAll("body div[class='container-fluid'] div[class='row fullPageDiv'] div[class='col-sm-7 col-xs-12']")[0];
-    mainEle.className = "row fullPageDiv";
+    //mainEle.className = "row fullPageDiv";
 }
 else if( window.location.hostname ==  "www.geeksforgeeks.org" )
 {
     var icon = document.querySelectorAll("head link[rel='shortcut icon']")[0];
-    //icon.setAttribute("href", "https://www.shareicon.net/download/16x16/2017/04/19/884518_planet_512x512.png");
     // use stackovreflow icon
-    icon.setAttribute("href", "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d");
-
+    icon.setAttribute("href", stackOverFlowIconLocation);
     ////////////////////////////
     // Detox the document
     ////////////////////////////
