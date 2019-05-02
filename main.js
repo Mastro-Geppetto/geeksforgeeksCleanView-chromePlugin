@@ -29,11 +29,11 @@ else if( window.location.hostname ==  "www.geeksforgeeks.org" )
     var rt_sd_bar = document.getElementById("secondary");
     rt_sd_bar.parentElement.removeChild(rt_sd_bar);
 
-    var top_bar_1 = document.getElementById("page");
+    var top_bar_1 = document.getElementById("masthead");
     top_bar_1.parentElement.removeChild(top_bar_1);
 
     var top_bar_2 = document.getElementById("site-navigation");
-    top_bar_2.parentElement.removeChild(top_bar_2);
+    //top_bar_2.parentElement.removeChild(top_bar_2);
 
     var change_prim_class = document.getElementById("primary");
     change_prim_class.setAttribute('class', 'site-header')
