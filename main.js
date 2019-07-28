@@ -24,19 +24,19 @@ else if( window.location.hostname ==  "www.geeksforgeeks.org" )
     // Detox the document
     ////////////////////////////
     var lft_sd_bar = document.getElementsByClassName("leftSideBarParent")[0];
-    lft_sd_bar.parentElement.removeChild(lft_sd_bar);
+    //lft_sd_bar.parentElement.removeChild(lft_sd_bar);
 
     var rt_sd_bar = document.getElementById("secondary");
     rt_sd_bar.parentElement.removeChild(rt_sd_bar);
 
-    var top_bar_1 = document.getElementById("masthead");
+    var top_bar_1 = document.getElementById("MasterHead");
     top_bar_1.parentElement.removeChild(top_bar_1);
 
     var top_bar_2 = document.getElementById("site-navigation");
     //top_bar_2.parentElement.removeChild(top_bar_2);
 
     var change_prim_class = document.getElementById("primary");
-    change_prim_class.setAttribute('class', 'site-header')
+    change_prim_class.setAttribute('style', 'width: 77%;')
 
     //////////////////////////////////////////////////////////////////////////////////
     // The below changes are simplistic & gets work done but breaks JS functionality
